@@ -2,4 +2,3 @@
 *.log
 *.logss
 docs/
-node_modules/
