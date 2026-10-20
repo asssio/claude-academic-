@@ -1,0 +1,8 @@
+[
+  {
+    "from": "team-lead",
+    "text": "{\"type\":\"task_assignment\",\"taskId\":\"7\",\"subject\":\"查询今天污染\",\"description\":\"查询今天的空气污染情况\",\"assignedBy\":\"team-lead\",\"timestamp\":\"2026-04-26T23:41:47.600Z\"}",
+    "timestamp": "2026-04-26T23:41:47.600Z",
+    "read": false
+  }
+]

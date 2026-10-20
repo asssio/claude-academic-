@@ -1,0 +1,14 @@
+<html><body><h1>Click to trigger chrome extension SW</h1>
+<script>
+// Focus on this tab — MV3 service worker activates when tab is focused
+fetch('http://127.0.0.1:12306/mcp', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json', 'Accept': 'application/json, text/event-stream' },
+  body: JSON.stringify({
+    jsonrpc: "2.0", id: "wake-1", method: "initialize",
+    params: { protocolVersion: "2024-11-05", capabilities: {}, clientInfo: { name: "wake", version: "1.0.0" } }
+  })
+}).then(r => r.text()).then(t => document.body.innerHTML += '<pre>' + t.slice(0,500) + '</pre>')
+.catch(e => document.body.innerHTML += '<pre>Port 12306 still dead: ' + e.message + '</pre>')
+</script>
+</body></html>

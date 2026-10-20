@@ -1,0 +1,9 @@
+[
+  {
+    "from": "team-lead",
+    "text": "Task #7 - 查询今天污染。请使用 WebSearch 查询今天的空气污染情况（PM2.5等）并返回结果。",
+    "summary": "污染查询任务",
+    "timestamp": "2026-04-26T23:41:52.223Z",
+    "read": false
+  }
+]

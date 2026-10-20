@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["chrome-devtools-mcp@latest"]
+    },
+    "MiniMax": {
+      "command": "uvx",
+      "args": ["minimax-coding-plan-mcp", "-y"],
+      "env": {
+        "MINIMAX_API_KEY": "sk-cp-zWM9FKoAwVWOt9Bjh2Y_oBXclt5_d-7JeDDjot2LGmSVt1SwSChikPSiTIoXhbqQUcNd3ItFTJxSG3GQAT72IAtGhbdcZhYk8A0TW2Sk6f3jd5se36epYb4",
+        "MINIMAX_API_HOST": "https://api.minimaxi.com"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@anthropic-ai/playwright-mcp"]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"dismissedBadges" :
+	[
+		"page.actions"
+	],
+	"dismissedMessages" :
+	[
+		"closeOnExitInfo"
+	],
+	"generatedProfiles" :
+	[
+		"{2b635471-a581-5466-bfd6-fc2deabafec3}",
+		"{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+		"{14c129f9-76b7-58ab-b0b7-8650b74590d3}",
+		"{7d5ce6c1-40db-5593-8ed7-4d77dcc7ba97}",
+		"{5b0a7152-4aa8-54bb-b899-cd1efa4406cd}",
+		"{53c7fa83-9639-5036-9162-582647b40a0b}",
+		"{ae5b7dce-ada8-5c3f-9761-0f1a66405bb1}",
+		"{cf16cb7e-dd32-5bb4-9fab-0d4917c88612}",
+		"{16208362-94fc-5b1f-a491-5b2624d5ab56}"
+	],
+	"settingsHash" : "b8d9bbc016eb3b02-01dcc62add47698f",
+	"sshFolderGenerated" : true
+}

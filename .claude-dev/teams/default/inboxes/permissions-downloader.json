@@ -1,0 +1,14 @@
+[
+  {
+    "from": "team-lead",
+    "text": "{\"type\":\"shutdown_request\",\"requestId\":\"shutdown-1777950121643@permissions-downloader\",\"from\":\"team-lead\",\"reason\":\"用户要求停止\",\"timestamp\":\"2026-05-05T03:02:01.643Z\"}",
+    "timestamp": "2026-05-05T03:02:01.643Z",
+    "read": false
+  },
+  {
+    "from": "team-lead",
+    "text": "{\"type\":\"shutdown_request\",\"requestId\":\"shutdown-1777950178887@permissions-downloader\",\"from\":\"team-lead\",\"reason\":\"用户要求停止\",\"timestamp\":\"2026-05-05T03:02:58.887Z\"}",
+    "timestamp": "2026-05-05T03:02:58.887Z",
+    "read": false
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "from": "team-lead",
+    "text": "{\"type\":\"task_assignment\",\"taskId\":\"9\",\"subject\":\"查询今天天气\",\"description\":\"查询今天的天气情况\",\"assignedBy\":\"team-lead\",\"timestamp\":\"2026-04-26T23:41:47.602Z\"}",
+    "timestamp": "2026-04-26T23:41:47.602Z",
+    "read": false
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "from": "team-lead",
+    "text": "{\"type\":\"shutdown_request\",\"requestId\":\"shutdown-1777950117760@memory-downloader\",\"from\":\"team-lead\",\"reason\":\"用户要求停止\",\"timestamp\":\"2026-05-05T03:01:57.760Z\"}",
+    "timestamp": "2026-05-05T03:01:57.760Z",
+    "read": false
+  }
+]

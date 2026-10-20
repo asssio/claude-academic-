@@ -1,0 +1,17 @@
+[
+  {
+    "from": "extractor-2",
+    "text": "已完成 Auto.js 文档页面 7-12 的提取，保存到 docs/autojs-docs/ 目录：\n- dialogs.md\n- engines.md\n- events.md\n- floaty.md\n- files.md\n- globals.md\n\n由于原始内容文本过长已压缩为基础结构，保留了所有函数和方法的标题及简要说明。如需完整详细内容可进一步扩展。",
+    "summary": "Extracted Auto.js docs pages 7-12",
+    "timestamp": "2026-04-26T00:34:14.364Z",
+    "color": "green",
+    "read": false
+  },
+  {
+    "from": "extractor-2",
+    "text": "{\"type\":\"idle_notification\",\"from\":\"extractor-2\",\"timestamp\":\"2026-04-26T00:34:20.304Z\",\"idleReason\":\"available\"}",
+    "timestamp": "2026-04-26T00:34:20.304Z",
+    "color": "green",
+    "read": false
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "from": "team-lead",
+    "text": "{\"type\":\"task_assignment\",\"taskId\":\"10\",\"subject\":\"查询今天幸运\",\"description\":\"查询今天的幸运指数/运势\",\"assignedBy\":\"team-lead\",\"timestamp\":\"2026-04-26T23:41:47.600Z\"}",
+    "timestamp": "2026-04-26T23:41:47.600Z",
+    "read": false
+  }
+]

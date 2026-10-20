@@ -1,0 +1,33 @@
+commit a1ea0f6b69fe075b0903cc49e26a808989a5448b (HEAD -> master)
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:45:34 2026 +0800
+
+    11.重构: WebSearch 从 Anthropic API 改为 curl + Bing 搜索（加重试机制）
+
+    - 直接抓取 cn.bing.com，国内无需代理
+    - 使用 execFileSync 避免 cmd.exe ETIMEDOUT
+    - 添加 2 次重试（指数退避 1s, 2s），缓解网络波动
+    - 支持 allowed_domains / blocked_domains 域名过滤
+    - 简化 isEnabled() 始终启用
+
+commit 28afd06ede5c2154d31fd5464455318eecb6eda4
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:34:02 2026 +0800
+
+    11.重构: WebSearch + 修复 CSDN 下载器
+
+    WebSearch 改造:
+    - WebSearch 从 Anthropic API 改为 curl + Bing 搜索
+    - 使用 execFileSync 替代 execSync，避免 Windows cmd.exe ETIMEDOUT
+    - 支持 allowed_domains / blocked_domains 域名过滤，isEnabled() 始终启用
+    - 清理 11 项未使用的导入和 ~130 行死代码
+
+    CSDN 下载器修复:
+    - 修改 format_code_block() 添加 preserve_indent 参数
+    - Python 代码使用最小缩进减法而非 lstrip()，保留相对缩进
+    - 优化 html2text 配置：body_width=0, wrap_links=False
+    - 保存目录改为 D:\doc\csdn_article
+
+commit 887eb57c49b89838611ea0f7df76c5f166423fef
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 09:21:15 2026 +0800

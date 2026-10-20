@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Fetch(domain:*)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "sonnet-4-5-20250929[1m]",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python I:/claude-code/.claude-dev/hooks/play-notification.py --tool"
+          }
+        ]
+      }
+    ]
+  },
+  "skipWebFetchPreflight": true,
+  "autoDreamEnabled": true,
+  "skipDangerousModePermissionPrompt": true,
+  "allow": [
+    "Read(*)",
+    "Write(*)",
+    "Edit(*)",
+    "Bash(pnpm *)",
+    "Bash(node *)",
+    "Bash(npx *)"
+  ]
+}

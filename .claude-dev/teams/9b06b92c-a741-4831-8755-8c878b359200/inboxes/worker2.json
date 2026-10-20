@@ -1,0 +1,8 @@
+[
+  {
+    "from": "team-lead",
+    "text": "{\"type\":\"task_assignment\",\"taskId\":\"8\",\"subject\":\"查询今天温度\",\"description\":\"查询今天的温度情况\",\"assignedBy\":\"team-lead\",\"timestamp\":\"2026-04-26T23:41:47.601Z\"}",
+    "timestamp": "2026-04-26T23:41:47.601Z",
+    "read": false
+  }
+]

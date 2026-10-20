@@ -1,0 +1,94 @@
+commit 0d417be6945b2d763c04e1d90456bb21d2d5e61b (HEAD -> master)
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:23:02 2026 +0800
+
+    清理: 移除 DuckDuckGo 回退和代理代码，仅保留 Bing 搜索
+
+    - DuckDuckGo 在国内无法直连，且 Bing 已能覆盖所有搜索需求
+    - 删除冗余的 DuckDuckGo API 回退策略和 HTTP_PROXY 环境变量
+    - 简化 try-catch 结构，去掉空的 catch 块
+
+    Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+commit 3f34210e1e4734629a9929a21e3a2dad53ac21e5
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:20:23 2026 +0800
+
+    更新文档: 添加 Bing 搜索支持记录
+
+    - 双策略架构说明（Bing → DuckDuckGo 回退）
+    - HTML 解析逻辑与网络测试结果
+    - 更新文件清单表，补充 commit 4dd1e79
+
+    Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+commit 4dd1e7982b79fe833c44d2b43225b712ee54310b
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:18:22 2026 +0800
+
+    新增: WebSearch 支持 Bing 搜索（无需代理），DuckDuckGo 作为备选
+
+    - 主要策略：抓取 cn.bing.com HTML 搜索结果，无需代理，国内可直接访问
+    - 备选策略：当 Bing 搜索无结果时，退回到 DuckDuckGo + 代理
+    - 两种策略共享相同的域名过滤逻辑（allowed_domains / blocked_domains）
+
+    Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+commit 0e89a8208cb39a4af143be46d51822406b4825be
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:11:26 2026 +0800
+
+    更新文档: 添加 execFileSync 修复记录
+
+    - 记录 execSync 超时问题分析与 execFileSync 修复方案
+    - 更新文件清单表，补充新 commit e45726c
+
+    Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+commit e45726c7b7fe3575b2f3aa63f464f2e5d51e77c0
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:10:32 2026 +0800
+
+    修复: WebSearch execSync 超时问题，改用 execFileSync 避免 cmd.exe 阻塞
+
+    - 将 execSync 替换为 execFileSync，直接调用 curl.exe 可执行文件
+    - Windows 平台使用 C:/Windows/System32/curl.exe 全路径
+    - 非 Windows 平台保持使用 curl 命令
+    - 参数以数组形式传递，避免 shell 字符串解析
+
+    Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+commit 266c4ed619398c06ef318ce8c6d7cdd06960c8ab
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 22:01:36 2026 +0800
+
+    为 WebSearch curl 添加 HTTP 代理支持（默认 127.0.0.1:7897）
+
+commit 54b9c51d16e7484dd4f02f8b922c54e89ca26d9d
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 21:45:54 2026 +0800
+
+    将 WebSearch 工具从 Anthropic API 改为 curl + DuckDuckGo 搜索实现
+
+commit 41efa0854bcc8cfe2cc3b7c9eee769a2dfc10d5d
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 21:01:35 2026 +0800
+
+    修复 settings.json hooks 配置格式
+
+    Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+
+commit 6f3d4d01bfb9455c13330ffa4c59c46f74db0a33
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 15:20:49 2026 +0800
+
+    修复 CSDN 下载器的代码缩进问题
+
+    - 修改 format_code_block() 函数，添加 preserve_indent 参数
+    - 对于 Python 代码，使用最小缩进减法而不是 lstrip()， preserving相对缩进
+    - 优化 html2text 配置：body_width=0, wrap_links=False
+    - 将保存目录更改为 D:\doc\csdn_article
+
+commit 887eb57c49b89838611ea0f7df76c5f166423fef
+Author: localuser <local@example.com>
+Date:   Tue Jun 30 09:21:15 2026 +0800

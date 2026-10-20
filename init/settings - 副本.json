@@ -1,0 +1,53 @@
+{
+  "permissions": {
+    "allow": [
+      "Fetch(domain:*)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "E:/apk/Python37/python.exe \"$CLAUDE_PROJECT_DIR/.claude-dev/hooks/append_history.py\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'date +\"%Y-%m-%d %H:%M:%S\" >> \"$CLAUDE_PROJECT_DIR/docs/times.txt\"'"
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "E:/apk/Python37/python.exe \"$CLAUDE_PROJECT_DIR/.claude-dev/hooks/record_problem.py\""
+          }
+        ]
+      }
+    ]
+  },
+  "skipWebFetchPreflight": true,
+  "skipDangerousModePermissionPrompt": true,
+  "allow": [
+    "Read(*)",
+    "Write(*)",
+    "Edit(*)",
+    "Bash(pnpm *)",
+    "Bash(node *)",
+    "Bash(npx *)"
+  ]
+}

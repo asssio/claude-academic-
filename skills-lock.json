@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "skills": {
+    "android-native-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "d55826acd91b9eadee90d9235826f0180e5f611680140307cdf728150ac74bef"
+    },
+    "buddy-sings": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "3d0d6196aed7ebc5a4e39d3918325bfb22ca38b314c1537b865258c48b58bb96"
+    },
+    "devlog": {
+      "source": "maoruibin/devlog",
+      "sourceType": "github",
+      "computedHash": "6fa9bf3a689035ad8bc4dfde6f5313b5a63dc4a0aec6011b467cefe4543c253d"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "9e1c8b3103f92fa8092568a44fe64858de7c5c9dc65ce4bea8f168080e889cfd"
+    },
+    "flutter-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "bfdcb3982bd4da9d0d33d6c7cceb51cd035e76a460edfc029e4a87dd56a5d2bd"
+    },
+    "frontend-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "ffee882ad30a0791c216973b21f607f25e2d8e659695559f8c7cf0821140e9aa"
+    },
+    "fullstack-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "e901a7302603fbc1c3f2a520feaaf8fead3c25dba8b77411f2f9593353b89959"
+    },
+    "gif-sticker-maker": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "2ccaeefff78e5a1aff0e508478eafc774d66194a99afe30ace6da8054f10be23"
+    },
+    "ios-application-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "be8c6216bbaed2c627da45ae04e01cfb8a9c8b35afc00fdf051d2c978c5e1bcf"
+    },
+    "minimax-docx": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "a077e3d00e19b793e857461fbd1a5933ac863e4afb08847c5c052ddf8fe28c82"
+    },
+    "minimax-music-gen": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "a1ceedc6c6659a762bc25ce347211308071e4ab4edbc8f94763909a4b5bdbd99"
+    },
+    "minimax-music-playlist": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "bd6500b4300c438e03301a8fcd85106706895cf09607111fa7b7de09d74ead7e"
+    },
+    "minimax-pdf": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "b313bfd30ed812a0bdd7fa5fb2a015a9a0a3661e26e6e9ac1ec7e50d8126aae0"
+    },
+    "minimax-xlsx": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "759bdf01a458f10053bb8910621a28f2a086256d261ed1754ec061523ed2e0f9"
+    },
+    "mmx-cli": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "50a524b3e3e90bea914f8d85610b5583ebd29c87cc53feedc043bc0fc1dd85e1"
+    },
+    "pptx-generator": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "343583bb7a3286b74f5a9a499089a697242e44cf781319ad547dbc08f3ab7f4c"
+    },
+    "pr-review": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "a775cb9111fd930704f1ed835364f87ae76856409e1281548d92226b6f7ee527"
+    },
+    "react-native-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "1547e61b0870583672cdd76d21176ac4df92ea049a30377fe96f5c41124a244c"
+    },
+    "shader-dev": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "eb5ec98f90eec2c202ebce61f40806b1af01823bde403fb453dfaac693dd83d0"
+    },
+    "superpowers-zh": {
+      "source": "npm:superpowers-zh",
+      "sourceType": "npm",
+      "version": "1.1.8",
+      "computedHash": "installed"
+    },
+    "vision-analysis": {
+      "source": "MiniMax-AI/skills",
+      "sourceType": "github",
+      "computedHash": "07fba05e6162d6c85ddf871e4f62be8cedc2e1de09d6ff425a80acbc0a6ad736"
+    },
+    "web-access": {
+      "source": "eze-is/web-access",
+      "sourceType": "github",
+      "computedHash": "efed30ab531947ac10dfbb44e93d3b6d9c8b43d662b227d8bf6b7431078c2901"
+    }
+  }
+}

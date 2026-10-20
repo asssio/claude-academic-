@@ -1,0 +1,9 @@
+[
+  {
+    "from": "clone-agent-4",
+    "text": "{\"type\":\"idle_notification\",\"from\":\"clone-agent-4\",\"timestamp\":\"2026-05-06T16:30:59.221Z\",\"idleReason\":\"available\"}",
+    "timestamp": "2026-05-06T16:30:59.221Z",
+    "color": "purple",
+    "read": false
+  }
+]
